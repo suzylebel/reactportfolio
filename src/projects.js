@@ -13,7 +13,7 @@ export default function Projects() {
             isReversed={false}
             image='/Images/workout.png'
             />
-            <ProjectRow
+            {/* <ProjectRow
             background='rgb(229,180,31)' 
             title='The Glucose Guardian App'
             repoLink='https://github.com/GlucoseGaurdians/Glucose-Gaurdians' 
@@ -21,7 +21,7 @@ export default function Projects() {
             description='Our app is designed to be a centralized location for diabetics of all types to track their blood sugar, keep track of their meds and provide trusted resources to answer questions about their questions. Please note, this application is still a work in progress.'
             isReversed={true}
             image='/Images/glucose.png'
-            />
+            /> */}
             <ProjectRow 
             background='rgb(229,180,31)'
             title='Weather Forecast'
@@ -31,7 +31,7 @@ export default function Projects() {
             isReversed={false}
             image='/Images/weather.png'
             />
-                <ProjectRow
+                {/* <ProjectRow
             background='rgb(229,180,31)' 
             title='Gif N Jelly'
             repoLink='https://github.com/TommyWillen/gifNjelly' 
@@ -39,7 +39,7 @@ export default function Projects() {
             description='GifNjelly IS A NETWORK TO RATE GIPHYS and is up and coming in the giphy world. Join your friends and add your captions to the giphs around town. Make an account today and rate your favorite giphys around!'
             isReversed={true}
             image='/Images/gifnjelly.png'
-            />
+            /> */}
              <ProjectRow 
             background='rgb(229,180,31)'
             title='Password Generator'

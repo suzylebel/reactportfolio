@@ -24,7 +24,7 @@ function Welcome() {
   </Card.ImgOverlay>
 </Card> */}
             
-  <h1><img className="img-fluid" src="./Images/howdy.gif"
+  <h1><img className="img-fluid" src="Images/howdy.gif"
                  alt ="logo"
                 
                  

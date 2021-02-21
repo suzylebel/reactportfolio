@@ -22,7 +22,7 @@ const Footer = () => (
 
                        <div className="col-xs-6 col-md-6">
                          <ul className="footer-links">
-                         <img src="./Images/logosuzy.png"
+                         <img src="Images/logosuzy.png"
                                alt ="logo"
                                   width="100"
                                   height="100"
