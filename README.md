@@ -11,7 +11,7 @@ Check out the [Video of my React Portfolio here!](https://drive.google.com/file/
 
 Explore the [Deployed NOte Taker on Github Pages]()
 
-View the [Portfolio Github page](https://github.com/suzylebel/Portfolio-react)
+View the [Portfolio Github page](https://suzylebel.github.io/reactportfolio/)
 
 
 
