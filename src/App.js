@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from "./components/Navbar/NavBar";
+
+import Welcome from "./components/JumbotronWelcome/Jumbotron";
+
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import ScreenSizeContext from './contexts/screenSizeContext';
+import Projects from "./projects"
+import Footer from "./components/Footer/Footer";
+import ContactComp from "./components/contact";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+      <BrowserRouter>
+    
+      <NavBar />
+      <Switch>
+                  <Route exact path='/home' component={Welcome} />
+                  <Route exact path='/projects' component={Projects} />
+                  <Route exact path='/contact' component={ContactComp} />
+
+      </Switch>
+      <br />
+      <div>
+        <Footer />
+   
     </div>
+    <br />
+  
+    
+    
+    </BrowserRouter> 
+
   );
 }
 
