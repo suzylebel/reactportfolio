@@ -3,7 +3,7 @@ import NavBar from "./components/Navbar/NavBar";
 
 import Welcome from "./components/JumbotronWelcome/Jumbotron";
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import ScreenSizeContext from './contexts/screenSizeContext';
 import Projects from "./projects"
@@ -15,13 +15,13 @@ import ContactComp from "./components/contact";
 function App() {
   return (
     
-      <BrowserRouter>
-    
+      <Router>
+    <>
       <NavBar />
       <Switch>
-                  <Route exact path='/home' component={Welcome} />
-                  <Route exact path='/projects' component={Projects} />
-                  <Route exact path='/contact' component={ContactComp} />
+                  <Route exact path='/reactportfolio/' component={Welcome} />
+                  <Route exact path='/reactportfolio/projects' component={Projects} />
+                  <Route exact path='/reactportfolio/contact' component={ContactComp} />
 
       </Switch>
       <br />
@@ -32,8 +32,8 @@ function App() {
     <br />
   
     
-    
-    </BrowserRouter> 
+    </>
+    </Router> 
 
   );
 }

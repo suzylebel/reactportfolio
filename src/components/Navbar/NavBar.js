@@ -28,10 +28,10 @@ function NavBar() {
 
           </Nav.Link>
 
-          <Nav.Link className="float-right mr-auto align-right" to={{ pathname: "/reactportfolio/contact"}}>Contact Suzy <span class=" text-right navbar-brand material-icons ">
+          <Nav.Link className="float-right mr-auto align-right" href="/reactportfolio/contact">Contact Suzy <span class=" text-right navbar-brand material-icons ">
             face
 </span> </Nav.Link>
-          <Nav.Link to={{ pathname: "/reactportfolio/projects"}}> Projects <span className=" text-right navbar-brand material-icons ">important_devices</span> </Nav.Link>
+          <Nav.Link href="/reactportfolio/projects"> Projects <span className=" text-right navbar-brand material-icons ">important_devices</span> </Nav.Link>
 
 
       
