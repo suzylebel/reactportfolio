@@ -14,7 +14,7 @@ function NavBar() {
 
 
     <Navbar className="navbar" variant="dark" expand="lg">
-      <Navbar.Brand to={{ pathname: "/reactportfolio/"}}><h2 className="suzy">Suzy Le Bel</h2></Navbar.Brand>
+      <Navbar.Brand href="https://suzylebel.github.io/reactportfolio/"><h2 className="suzy">Suzy Le Bel</h2></Navbar.Brand>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -28,10 +28,10 @@ function NavBar() {
 
           </Nav.Link>
 
-          <Nav.Link className="float-right mr-auto align-right" href="/reactportfolio/contact">Contact Suzy <span class=" text-right navbar-brand material-icons ">
+          <Nav.Link className="float-right mr-auto align-right" href="https://suzylebel.github.io/reactportfolio/contact">Contact Suzy <span class=" text-right navbar-brand material-icons ">
             face
 </span> </Nav.Link>
-          <Nav.Link href="/reactportfolio/projects"> Projects <span className=" text-right navbar-brand material-icons ">important_devices</span> </Nav.Link>
+          <Nav.Link href="https://suzylebel.github.io/reactportfolio/projects"> Projects <span className=" text-right navbar-brand material-icons ">important_devices</span> </Nav.Link>
 
 
       
