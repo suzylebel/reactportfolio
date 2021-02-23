@@ -19,9 +19,9 @@ function App() {
     <>
       <NavBar />
       <Switch>
-                  <Route exact path='/reactportfolio/' component={Welcome} />
-                  <Route exact path='/reactportfolio/projects' component={Projects} />
-                  <Route exact path='/reactportfolio/contact' component={ContactComp} />
+                  <Route href="https://suzylebel.github.io/reactportfolio/" component={Welcome} />
+                  <Route href="https://suzylebel.github.io/reactportfolio/projects/" component={Projects} />
+                  <Route href="https://suzylebel.github.io/reactportfolio/contact/" component={ContactComp} />
 
       </Switch>
       <br />
