@@ -1,6 +1,11 @@
 import React from 'react'
 import ProjectRow from './projCards/row';
 import workout from "../src/components/Images/workout.png"
+import glucose from "../src/components/Images/glucose.png"
+import notes from "../src/components/Images/notes.png"
+import weather from "../src/components/Images/weather.png"
+import password from "../src/components/Images/password.png"
+import gifnjelly from "../src/components/Images/gifnjelly.png"
 
 
 export default function Projects() {
@@ -22,7 +27,7 @@ export default function Projects() {
             deployLink='https://glucose-guardians.herokuapp.com/'
             description='Our app is designed to be a centralized location for diabetics of all types to track their blood sugar, keep track of their meds and provide trusted resources to answer questions about their questions. Please note, this application is still a work in progress.'
             isReversed={true}
-            image=""
+            image={glucose}
             />
             <ProjectRow 
             background='rgb(229,180,31)'
@@ -31,7 +36,7 @@ export default function Projects() {
             deployLink='https://suzylebel.github.io/Weather-Forecast/'
             description="Search and city and see what the current weather and 5 day forecast is in that city!"
             isReversed={false}
-            image='/Images/weather.png'
+            image={weather}
             />
                 <ProjectRow
             background='rgb(229,180,31)' 
@@ -40,7 +45,7 @@ export default function Projects() {
             deployLink='https://mighty-fjord-82642.herokuapp.com/'
             description='GifNjelly IS A NETWORK TO RATE GIPHYS and is up and coming in the giphy world. Join your friends and add your captions to the giphs around town. Make an account today and rate your favorite giphys around!'
             isReversed={true}
-            image='/Images/gifnjelly.png'
+            image={gifnjelly}
             />
              <ProjectRow 
             background='rgb(229,180,31)'
@@ -49,7 +54,7 @@ export default function Projects() {
             deployLink='https://suzylebel.github.io/Password-Generator/'
             description="A random password generator for users to select numbers and characters and length of password"
             isReversed={false}
-            image='/Images/password.png'
+            image={password}
             />
               <ProjectRow
             background='rgb(229,180,31)' 
@@ -58,7 +63,7 @@ export default function Projects() {
             deployLink='https://notetakersuzy.herokuapp.com/'
             description='A note taker application for a user to keep track of notes!'
             isReversed={true}
-            image='/Images/notes.png'
+            image={notes}
             />
         </div>
         

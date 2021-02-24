@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css"
+import img from "../Images/logosuzy.png"
 
 var style = {
     backgroundColor: "#e5b41f",
@@ -22,7 +23,7 @@ const Footer = () => (
 
                        <div className="col-xs-6 col-md-6">
                          <ul className="footer-links">
-                         <img src="Images/logosuzy.png"
+                         <img src={img}
                                alt ="logo"
                                   width="100"
                                   height="100"

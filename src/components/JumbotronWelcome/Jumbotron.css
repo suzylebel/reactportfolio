@@ -26,6 +26,7 @@ p {
 
 #yellow  {
     background-color: #daa520;
+    outline: #daa520;
     color: black;
     outline: black;
 }
