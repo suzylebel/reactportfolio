@@ -1,5 +1,7 @@
 import React from 'react'
 import ProjectRow from './projCards/row';
+import workout from "../src/components/Images/workout.png"
+
 
 export default function Projects() {
     return (
@@ -11,7 +13,7 @@ export default function Projects() {
             deployLink='https://fitnesstrackersuzy.herokuapp.com/'
             description="This MongoDB application is for users to track their fitness goals by tracking reps, weights, and distance as well as see it graphed out"
             isReversed={false}
-            image='/Images/workout.png'
+            image={workout}
             />
             <ProjectRow
             background='rgb(229,180,31)' 
@@ -20,7 +22,7 @@ export default function Projects() {
             deployLink='https://glucose-guardians.herokuapp.com/'
             description='Our app is designed to be a centralized location for diabetics of all types to track their blood sugar, keep track of their meds and provide trusted resources to answer questions about their questions. Please note, this application is still a work in progress.'
             isReversed={true}
-            image='/Images/glucose.png'
+            image=""
             />
             <ProjectRow 
             background='rgb(229,180,31)'

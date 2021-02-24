@@ -3,6 +3,8 @@ import Jumbotron from "react-bootstrap/Jumbotron"
 import Card from "react-bootstrap/Card"
 import "./Jumbotron.css"
 import Button from "react-bootstrap/Button"
+import img from "../Images/howdy.gif"
+
 
 
 
@@ -24,7 +26,7 @@ function Welcome() {
   </Card.ImgOverlay>
 </Card> */}
             
-  <h1><img className="img-fluid" src="/Images/howdy.gif"
+  <h1><img className="img-fluid" src={img}
                  alt ="logo"
                 
                  
