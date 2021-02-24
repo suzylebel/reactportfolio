@@ -11,7 +11,7 @@ A React portfolio for web developer Suzy Le Bel
 
 Check out the [Video of my React Portfolio here!](https://drive.google.com/file/d/13m3Ru85j-4sHBIcgLeMeoMgrfjrXvxr0/view)
 
-Explore the [Deployed NOte Taker on Github Pages]()
+Explore the [Deployed Portfolio on Gh-Pages](https://suzylebel.github.io/reactportfolio/#/)
 
 View the [Portfolio Github page](https://suzylebel.github.io/reactportfolio/)
 
@@ -43,9 +43,9 @@ AND SHOW all that I am capable of!
 
 Check out the [Video of my React Portfolio here!](https://drive.google.com/file/d/13m3Ru85j-4sHBIcgLeMeoMgrfjrXvxr0/view)
 
-Explore the [Deployed NOte Taker on Github Pages]()
+Explore the [Deployed Portfolio on Gh-Pages](https://suzylebel.github.io/reactportfolio/#/)
 
-View the [Portfolio Github page](https://github.com/suzylebel/Portfolio-react)
+View the [Portfolio Github page](https://suzylebel.github.io/reactportfolio/)
 
 
 
