@@ -7,7 +7,7 @@ A React portfolio for web developer Suzy Le Bel
 
 # React-Portfolio
 
-![Portfolio](ReadMeimages/readmeimg.png)
+
 
 Check out the [Video of my React Portfolio here!](https://drive.google.com/file/d/13m3Ru85j-4sHBIcgLeMeoMgrfjrXvxr0/view)
 
